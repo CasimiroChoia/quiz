@@ -1,0 +1,20 @@
+@keyframes girar {
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.Carregar {
+    --altura_e_largura:50px;
+    cursor: none;
+    display: block;
+    margin:50px auto;
+    border-radius: 50%;
+    width: var(--altura_e_largura);
+    height: var(--altura_e_largura);
+    border: calc(var(--altura_e_largura)/10) solid rgba(128, 128, 128, 0.5);
+    border-top-color: white;
+
+    animation: girar .3s linear 0s infinite both ;
+}
+

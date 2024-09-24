@@ -1,0 +1,96 @@
+.Playing {
+    text-transform: capitalize;
+}
+
+.header {
+    background-color: rgba(53, 100, 85, 0.37);
+    border-radius: 10px;
+    margin: 0 auto 1em;
+    padding: .5em 1em;
+    max-width: 90%;
+
+    &>* {
+        font-family: 'font 3';
+        margin-bottom: .25em;
+    }
+}
+
+.option {
+    width: 70%;
+    font-family: monospace;
+    margin: auto;
+    cursor: pointer;
+    padding: .5em 1em;
+    border-radius: 5px;
+    margin-bottom: .5em;
+    text-transform: none;
+    letter-spacing: 1px;
+    background-color: bisque;
+    transition: all .25s linear .3s;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, .3);
+    }
+}
+
+.containerPergunta {
+    background-color: #a9bb97;
+    border-radius: 10px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: .5em;
+
+    & h4 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.btnContainer {
+    display: flex;
+    margin: auto;
+    flex-flow: row wrap;
+    flex-basis: 100px;
+    justify-content: space-between;
+    width: 50%;
+
+    &>* {
+        display: inline;
+        margin: 3px auto;
+        min-width: 100px;
+    }
+}
+
+.idea {
+    background-color: #f2ff00;
+    font-weight: bolder;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    animation: deBaixo 1s ease-in-out 0s 1 backwards;
+}
+
+.ideas {
+    width: 50%;
+    margin: 5px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    background-color: transparent;
+    color: transparent;
+    /* display: none; */
+    transition: all .5s;
+}
+
+@keyframes deBaixo {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+}
