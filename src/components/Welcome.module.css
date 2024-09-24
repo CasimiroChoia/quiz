@@ -1,0 +1,45 @@
+
+@keyframes vindoDeBaixo {
+    from {
+      transform: translateY(3em);
+      filter: opacity(0);
+    }
+  }
+
+.welcome {
+    text-align: center;
+    text-transform: capitalize;
+
+    & p {
+        font-family: 'font 1';
+        font-weight: 600;
+    }
+}
+
+.h1 {
+    font-family: 'font 1';
+    margin-block: 0 1em;
+    padding-top: 1em;
+}
+
+.img {
+    transition: filter .5s ease-in-out;
+    border-radius: 50%;
+    width: 50vmin;
+    min-width: 100%;
+    cursor: none;
+    animation: vindoDeBaixo .5s ease-in-out 0s 1;
+    &:hover {
+        filter: drop-shadow(0px 1cm 1px rgba(255, 255, 255, 0.3));        
+    }
+    
+}
+
+.button {
+    display: block;
+    padding: .5em 1em;
+    margin: auto;
+    border-radius: 5px;
+    border: 0 solid transparent;
+    background-color: aquamarine;
+}
