@@ -1,5 +1,6 @@
 .Playing {
     text-transform: capitalize;
+    min-height:90dvh;
 }
 
 .header {
