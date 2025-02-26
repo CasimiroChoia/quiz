@@ -20,6 +20,16 @@ const End = ({
                 porém para você completar com sucesso a estas perguntas de {quizState.category} é porque você não é qualquer pessoa<br />
                 então sucesso para você daqui para frente.
             </q>
+            <p>
+                Se gostou do meu trabalho ou tem alguma opinião <span> </span>
+                <a 
+                    href='https://wa.me/244948409127?text=Ey+DevCasi,+gostei+do+seu+trabalho+aqui+no+Luck+Game.✔🐱‍👤🎲🎰🏆🔥'
+                    target="_blank"
+                    className={style.link}
+                >
+                    clique aqui.
+                </a>
+            </p>
             <span className={style.imojis}>🏆👩🏽‍🎓🥇</span>
             <Button
                 btnContext='voltar ao menu principal'

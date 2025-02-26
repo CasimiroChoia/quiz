@@ -1,7 +1,6 @@
-import React, { useCallback } from "react";
-import style from './Button.module.css'
-const Button = React.memo(({
-    propkey,
+﻿import style from './Button.module.css'
+import { memo } from 'react';
+const Button = memo(({
     animation,
     reference,
     btnContext,
@@ -13,18 +12,12 @@ const Button = React.memo(({
     onMouseEnter
 }) => {
 
-    useCallback(()=>{
-        console.log('key => ' + propkey);
-    },[propkey])
-
-
     const localHandleClick = () => {
         console.log('Você Clicou no Botão.')
     }
 
     return (
         <button
-            key={propkey || 0}
             ref={reference}
             onClick={onClick || localHandleClick}
             onMouseEnter={onMouseEnter}

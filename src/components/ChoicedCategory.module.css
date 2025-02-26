@@ -1,6 +1,6 @@
-.Question {
+.question {
     color: black;
-
+    min-height: 100dvh;
     & header {
         margin: 0 auto 2em;
 

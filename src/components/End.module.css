@@ -1,5 +1,5 @@
 .End {
-    /* color: black; */
+    min-height: 100dvh;
     text-transform: capitalize;
     
     &>*:not(button) {
@@ -20,4 +20,9 @@
 
 .q {
     font-style: italic;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 600;
 }

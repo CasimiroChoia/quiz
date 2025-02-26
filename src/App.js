@@ -31,7 +31,8 @@ function App() {
               errou={errou}
               setErrou={setErrou}
               acertou={acertou}
-              setAcertou={setAcertou} delay={Math.random() || 0.5}
+              setAcertou={setAcertou} 
+              delay={Math.random() || 0.5}
             />
             :
             (quizState.gameStart === 'PLAYING')

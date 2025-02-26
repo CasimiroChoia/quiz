@@ -1,7 +1,7 @@
 const data = [
     // html
     {
-        type:'programação',
+        type: 'programação',
         category: 'HTML',
         questions: [
             // 1
@@ -37,7 +37,7 @@ const data = [
     },
     // css
     {
-        type:'programação',
+        type: 'programação',
         category: 'CSS',
         questions: [
             // 1
@@ -72,7 +72,7 @@ const data = [
     },
     // js
     {
-        type:'programação',
+        type: 'programação',
         category: 'JAVASCRIPT',
         questions: [
             // 1
@@ -137,7 +137,7 @@ const data = [
     },
     // dragonn ball
     {
-        type:'anime',
+        type: 'anime/animação',
         category: 'DragonBall',
         questions: [
             // 1
@@ -264,12 +264,12 @@ const data = [
                 answer: '1',
                 tip: '111/111'
             },
-            
+
         ]
     },
     // naruto
     {
-        type:'anime',
+        type: 'anime/animação',
         category: 'NARUTO',
         questions: [
             // 1
@@ -404,9 +404,433 @@ const data = [
                 answer: 'sim',
                 tip: 'sem ajuda'
             },
-            
+
         ]
-    }
+    },
+    // Steven Universe
+    {
+        type: 'anime/animação',
+        category: 'Steven Universe',
+        questions: [
+            // 1
+            {
+                question: 'quem é o protagonista da animação?',
+                options: [
+                    'Ametista',
+                    'Steven Universe',
+                    'Granaty',
+                    'Pérola'
+                ],
+                answer: 'Steven Universe',
+                tip: 'o titulo da animação já diz tudo.'.split('').reverse().join('')
+            },
+            // 2
+            {
+                question: 'Qual é o nome do pai do protagonista',
+                options: [
+                    'Lars',
+                    'Rose Quartz',
+                    'Greg Universe',
+                    'Diamante Rosa'
+                ],
+                answer: 'Greg Universe',
+                tip: 'vai pelo sobrenome.🤙'
+            },
+            // 3
+            {
+                question: 'Onde o steven e a Coni ficaram presos?',
+                options: [
+                    'No Espaço',
+                    'Num Templo',
+                    'Na juba do leão do Steven',
+                    'Numa Bolha'
+                ],
+                answer: 'Numa Bolha',
+                tip: 'se vira😆'
+            },
+            // 4
+            {
+                question: 'aonde a jóia do Steven Fica?',
+                options: [
+                    'Barriga',
+                    'Testa',
+                    'Perna',
+                    'Língua'
+                ],
+                answer: 'Barriga',
+                tip: 'Estomago'
+            },
+            // 5
+            {
+                question: 'Quem criou as joias de cristal?',
+                options: [
+                    'Rose Quartz',
+                    'Diamante Rosa',
+                    'Diamante Branco',
+                    'Diamante Amarelo',
+                    'Granaty'
+                ],
+                answer: 'Rose Quartz',
+                tip: '🌹'
+            },
+            // 6
+            {
+                question: 'Quem foi a primeira a atacar a terra numa nave?',
+                options: [
+                    'Peridote',
+                    'Lapiz Lazuli',
+                    'Espinela',
+                    'Jasper',
+                    'Estrela do mar'
+                ],
+                answer: 'Jasper',
+                tip: 'jspr'
+            },
+            // 7
+            {
+                question: 'A Granaty é a fusão de quais jóias?',
+                options: [
+                    'Ruby & Safira',
+                    'Safira & Peridote',
+                    'Nenhuma',
+                    'Pérola',
+                    'Pérola & Ametista'
+                ],
+                answer: 'Ruby & Safira',
+                tip: 'R & S'
+            },
+            // 8
+            {
+                question: 'A "Quartzo Fumé" é a fusão de quais jóias?',
+                options: [
+                    'Pérola & Steven',
+                    'Steven & Ametista',
+                    'Steven & Coni',
+                    'Steven & Rubi',
+                ],
+                answer: 'Steven & Ametista',
+                tip: 'S & A'
+            },
+            // 9
+            {
+                question: 'Qual é o nome da Fusão de todas as Jóias de Cristais (Steven, Pérola, Ametista, Granaty)',
+                options: [
+                    'Arco-Íris',
+                    'Obsidiana',
+                    'Stivoni',
+                    'Nenhuma acima'
+                ],
+                answer: 'Obsidiana',
+                tip: 'Obsidiana'
+            },
+            // 10
+            {
+                question: 'Adiamante rosa foi mesmo estilhaçada?',
+                options: [
+                    'Não',
+                    'Sim'
+                ],
+                answer: 'Não',
+                tip: 'Não'
+            }
+
+        ]
+    },
+    // atores
+    {
+        type: 'mundo dos cinemas',
+        category: 'atores',
+        questions: [
+            // 1
+            {
+                question: 'Em qual das obras de arte ele apareceu?',
+                img: require("../img/atores/andrew-garfield.jpg"),
+                options: [
+                    'Peak Blinders',
+                    'Prision Break',
+                    'Spider-man 3',
+                    'Nenhuma acima'
+                ],
+                answer: 'Spider-man 3',
+                tip: 'Spider-man 3.'.split('').reverse().join('')
+            },
+            // 2
+            {
+                question: 'Qual é o titulo do filme ?',
+                img: require("../img/atores/a-vida-em-um-ano-trailer-legendado.jpg"),
+                options: [
+                    'Sozinhos no quarto',
+                    'a vida em um ano',
+                    '365 dias',
+                    '20 anos mais jovem'
+                ],
+                answer: 'a vida em um ano',
+                tip: 'a vida em um (365 dias).🤙'
+            },
+            // 3
+            {
+                question: 'Qual é o nome dela?',
+                img: require("../img/atores/capita-marvel.jpg"),
+                options: [
+                    'capitã sujidade',
+                    'Natasha scarlat',
+                    'viúva negra',
+                    'nemhuma acima'
+                ],
+                answer: 'nemhuma acima',
+                tip: 'se vira😆'
+            },
+            // 4
+            {
+                question: 'Em qual dos filmes ele não participou ?',
+                img: require("../img/atores/grooth.jpg"),
+                options: [
+                    'Guardiões da galáxia (volume 1)',
+                    'Vingadores: a era do ultron',
+                    'I\'m grooth',
+                    'Guardiões da galáxia (volume 2)',
+                ],
+                answer: 'Vingadores: a era do ultron',
+                tip: 'avenger: the age of Ultron'
+            },
+            // 5
+            {
+                question: 'Em qual das obras de arte ela participou ?',
+                img: require("../img/atores/images.jpeg"),
+                options: [
+                    'Spider-man 1',
+                    'Spider-man 2',
+                    'Dune',
+                    'A irmã do meio',
+                    'Nenhuma acima'
+                ],
+                answer: 'Dune',
+                tip: '4 letters'
+            },
+            // 6
+            {
+                question: 'Uma das obras de arte Jena Ortega ?',
+                img: require("../img/atores/jenna-ortega.jpeg"),
+                options: [
+                    'Encontra-me em Paris',
+                    'Wandinha',
+                    'Jessie',
+                    'Eu sou Frankie',
+                    'Penny on M.A.R.S'
+                ],
+                answer: 'Wandinha',
+                tip: 'Wandinha'
+            },
+            // 7
+            {
+                question: 'Uma das obras de arte dela ?',
+                img: require("../img/atores/jessica-lord.png"),
+                options: [
+                    'Encontra-me em Paris',
+                    'Wandinha',
+                    'Jessie',
+                    'Eu sou Frankie',
+                    'Penny on M.A.R.S'
+                ],
+                answer: 'Encontra-me em Paris',
+                tip: 'Find-me in Paris'
+            },
+            // 8
+            {
+                question: 'Qual é o nome dele',
+                img: require("../img/atores/the rock.jpg"),
+                options: [
+                    'John Cena',
+                    'The Rock',
+                    'vin diesel',
+                    'dominic toreto',
+                ],
+                answer: 'The Rock',
+                tip: 'Lutador de WWE'
+            },
+            // 9
+            {
+                question: 'Quem está atraz da máscara ?',
+                img: require("../img/atores/spider-man.jpg"),
+                options: [
+                    'Lucas Lú',
+                    'Capião America',
+                    'Austin Best',
+                    'Peter Parker'
+                ],
+                answer: 'Peter Parker',
+                tip: 'Peter'
+            },
+            // 10
+            {
+                question: 'Qual é o  nome da Donzela ?',
+                img: require("../img/atores/tessa.png"),
+                options: [
+                    'Tessa (After)',
+                    'Rue (Euforia)',
+                    'Ginny (Ginny and Georgia)'
+                ],
+                answer: 'Tessa (After)',
+                tip: 'Depois (in inglish)'
+            }
+
+        ]
+    },
+    // futebol
+    {
+        type: 'futebol',
+        category: 'equipas',
+        questions: [
+            // 1
+            {
+                question: 'nome da equipa ?',
+                img: require("../img/equipas/a-madrid.png"),
+                options: [
+                    'Atletico Mineiro',
+                    'Atletico Madrid',
+                    'Real Madrid',
+                    'Aston Villa'
+                ],
+                answer: 'Atletico Madrid',
+                tip: 'Atletico Madrid.'.split('').reverse().join('')
+            },
+            // 2
+            {
+                question: 'O nome da equipa qual é ?',
+                img: require("../img/equipas/borussia.png"),
+                options: [
+                    'BVB',
+                    'Lille',
+                    'Borussia Dortmund',
+                    'Real Sociedade'
+                ],
+                answer: 'Borussia Dortmund',
+                tip: 'Dortmund.🤙'
+            },
+            // 2.1
+            {
+                question: 'a equipa anterior faz parte de qual liga ?',
+                img: require("../img/equipas/borussia.png"),
+                options: [
+                    'Premier League',
+                    'Budesliga',
+                    'Girabola',
+                    'Serie A'
+                ],
+                answer: 'Budesliga',
+                tip: 'Mesma liga que o Bayer.🤙'
+            },
+            // 3
+            {
+                question: 'No inicio de uma partida esta wequipa começa com quantos jogadores ?',
+                img: require("../img/equipas/roma.png"),
+                options: [
+                    '11',
+                    '12',
+                    'Rasteira',
+                    '10'
+                ],
+                answer: '11',
+                tip: 'eleven 😆'
+            },
+            // 4
+            {
+                question: 'Equipa onde CR7 ficou mais tempo ?',
+                options: [
+                    'Real Madrid',
+                    'Sporting',
+                    'Juventos',
+                    'Manchester United',
+                    'Al Nassr'
+                ],
+                answer: 'Real Madrid',
+                tip: 'Só os da realeza sabem a resposta'
+            },
+            // 5
+            {
+                question: 'Esta equipa pertence a qual liga ?',
+                img: require("../img/equipas/a-bilbao.png"),
+                options: [
+                    'La Liga',
+                    'Premier League',
+                    'Serie A',
+                    'Rea Madrid',
+                    'Não existe'
+                ],
+                answer: 'La Liga',
+                tip: 'Liga de Real Madrid'
+            },
+            // 6
+            {
+                question: 'Actualmente Real Madrid tem quantas Champions?',
+                img: require("../img/equipas/real.png"),
+                options: [
+                    'Mais de 17',
+                    'Entre 15 ou 16',
+                    'Menos de 14',
+                    '13',
+                    'Nenhuma acima'
+                ],
+                answer: 'Entre 15 ou 16',
+                tip: 'Entre 15 ou 16'
+            },
+            // 7
+            {
+                question: 'Halland Pertence a qual club?',
+                img: require("../img/equipas/m-united.png"),
+                options: [
+                    'Real Madrid',
+                    'FC Barcelona',
+                    'Altetico de Madrid',
+                    'Manchester United',
+                    'Manchester City'
+                ],
+                answer: 'Manchester City',
+                tip: 'City'
+            },
+            // 8
+            {
+                question: 'Esta equipa pertence a qual liga ?',
+                img: require("../img/equipas/a-villa.png"),
+                options: [
+                    'La Liga',
+                    'Premier League',
+                    'Serie A',
+                    'Rea Madrid',
+                    'Nenhuma acima'
+                ],
+                answer: 'Premier League',
+                tip: 'Liga do Manchester United'
+            },
+            // 9
+            {
+                question: 'Esta equipa pertence a qual liga ?',
+                img: require("../img/equipas/ajax.png"),
+                options: [
+                    'La Liga',
+                    'Premier League',
+                    'Serie A',
+                    'Rea Madrid',
+                    'Nenhuma acima'
+                ],
+                answer: 'Nenhuma acima',
+                tip: 'Nenhuma acima'
+            },
+            // 10
+            {
+                question: 'Esta equipa é de uma das ligas italianas ?',
+                img: require("../img/equipas/olimpique-lyonnais.png"),
+                options: [
+                    'Não',
+                    'Sim'
+                ],
+                answer: 'Não',
+                tip: 'Não'
+            }
+
+        ]
+    },
+
 ]
 
-export {data as question_complete};
+export { data as question_complete };

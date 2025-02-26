@@ -5,16 +5,16 @@
 }
 
 .Carregar {
-    --altura_e_largura:50px;
+    --altura_e_largura: 50px;
     cursor: none;
+    color: rgb(34, 97, 0);
     display: block;
-    margin:50px auto;
+    margin: 50px auto;
     border-radius: 50%;
     width: var(--altura_e_largura);
     height: var(--altura_e_largura);
     border: calc(var(--altura_e_largura)/10) solid rgba(128, 128, 128, 0.5);
     border-top-color: white;
 
-    animation: girar .3s linear 0s infinite both ;
+    animation: girar .3s linear 0s infinite both;
 }
-

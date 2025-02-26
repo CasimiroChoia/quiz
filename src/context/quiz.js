@@ -11,8 +11,7 @@ const initialState = {
 }
 
 const quizReducer = (state, action) => {
-    // console.group(action.type.split('_').reverse()[0]);
-    // console.log(state);
+
     switch (action.type) {
         case 'CHOICE_CATEGORY':
             return {
@@ -54,14 +53,40 @@ const quizReducer = (state, action) => {
                 category: 'NARUTO',
                 item: question_complete.find(obj => obj.category === action.type.split('_').reverse()[0])
             };
-            // voltar ao menu principal
+        case 'CHANGE_TO_Steven_Universe':
+            return {
+                ...state,
+                gameStart: STAGES[2],
+                category: 'Steven Universe',
+                item: question_complete.find(obj => obj.category === action.type.split('_').reverse()[0])
+            };
+        case 'CHANGE_TO_atores':
+            return {
+                ...state,
+                gameStart: STAGES[2],
+                category: 'atores',
+                item: question_complete.find(obj => obj.category === action.type.split('_').reverse()[0])
+            };
+        case 'CHANGE_TO_equipas':
+            return {
+                ...state,
+                gameStart: STAGES[2],
+                category: 'equipas',
+                item: question_complete.find(obj => obj.category === action.type.split('_').reverse()[0])
+            };
+        case 'CHANGE_TO_Equipas':
+            return {
+                ...state,
+                gameStart: [2],
+                category: 'Equipas',
+                item: question_complete.find(obj => obj.category === action.type.split('_').reverse()[0])
+            };
         case 'BACK_TO_MAIN':
             return {
                 ...state,
                 gameStart: STAGES[0],
-                category:''
+                category: ''
             };
-
         case 'END':
             return {
                 ...state,

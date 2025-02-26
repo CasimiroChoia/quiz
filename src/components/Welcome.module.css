@@ -9,7 +9,7 @@
 .welcome {
     text-align: center;
     text-transform: capitalize;
-    min-heigth:100dvh;
+    heigth:100dvh;
 
     & p {
         font-family: 'font 1';
