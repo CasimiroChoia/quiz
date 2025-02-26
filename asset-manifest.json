@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/quiz/static/css/main.1d3c301f.css",
+    "main.js": "/quiz/static/js/main.a9d115f0.js",
+    "static/js/453.2b0627e5.chunk.js": "/quiz/static/js/453.2b0627e5.chunk.js",
+    "static/media/tessa.png": "/quiz/static/media/tessa.f3828d6c14f8e3efe238.png",
+    "static/media/jessica-lord.png": "/quiz/static/media/jessica-lord.5ce80990cb6a0a708254.png",
+    "static/media/jenna-ortega.jpeg": "/quiz/static/media/jenna-ortega.53b2e40ffdb47ba36e1b.jpeg",
+    "static/media/capita-marvel.jpg": "/quiz/static/media/capita-marvel.a3d1fcd6130032002ad5.jpg",
+    "static/media/a-vida-em-um-ano-trailer-legendado.jpg": "/quiz/static/media/a-vida-em-um-ano-trailer-legendado.8c7b93d5ef08f84bb1fe.jpg",
+    "static/media/andrew-garfield.jpg": "/quiz/static/media/andrew-garfield.abb752bb7bbe812ff62c.jpg",
+    "static/media/the rock.jpg": "/quiz/static/media/the rock.adc0984755049700eb2a.jpg",
+    "static/media/1.ttf": "/quiz/static/media/1.bfba062ed0e9343936be.ttf",
+    "static/media/spider-man.jpg": "/quiz/static/media/spider-man.e4d07e642644f0e678db.jpg",
+    "static/media/grooth.jpg": "/quiz/static/media/grooth.c07aca105bc674faa70b.jpg",
+    "static/media/bluey.png": "/quiz/static/media/bluey.10e6efd584ea254bc11d.png",
+    "static/media/3.ttf": "/quiz/static/media/3.10ff39193fa401abdf71.ttf",
+    "static/media/2.ttf": "/quiz/static/media/2.eaf2443d0a0fb67c521d.ttf",
+    "static/media/images.jpeg": "/quiz/static/media/images.28eb6ea2cfe10a564d34.jpeg",
+    "index.html": "/quiz/index.html",
+    "main.1d3c301f.css.map": "/quiz/static/css/main.1d3c301f.css.map",
+    "main.a9d115f0.js.map": "/quiz/static/js/main.a9d115f0.js.map",
+    "453.2b0627e5.chunk.js.map": "/quiz/static/js/453.2b0627e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d3c301f.css",
+    "static/js/main.a9d115f0.js"
+  ]
+}
